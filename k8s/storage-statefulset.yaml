@@ -28,7 +28,7 @@ spec:
     - metadata:
         name: storage-volume
       spec:
-        storageClassName: PersistentDisk
+        storageClassName: standard
         accessModes: ["ReadWriteOnce"]
         resources:
           requests:
