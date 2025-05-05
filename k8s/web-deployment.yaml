@@ -23,7 +23,7 @@ spec:
               value: "storage"
           livenessProbe:
             httpGet:
-              path: /probe
+              path: /phrase
               port: 3000
             periodSeconds: 2
 ---
