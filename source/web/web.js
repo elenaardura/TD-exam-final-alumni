@@ -33,7 +33,7 @@ app.post('/phrase', async (req, res) => {
     res.send('Phrase routed and stored successfully in ' + STORAGE_SVC_HOST + '-' + instance);
   } catch (err) {
     console.error('Error posting to storage:', err.message);
-    res.status(500).send('Error sending phrase to storage:' + err.message);
+    res.status(500).send('Error sending phrase to storage:');
   }
 });
 
